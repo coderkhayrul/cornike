@@ -9,6 +9,6 @@ class WebsiteController extends Controller
 {
     public function home()
     {
-        return view('layouts.website-layout');
+        return view('website.home');
     }
 }
